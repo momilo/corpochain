@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+service Btcgo {
+    rpc Send(Transaction) returns (Transaction) {}
+    rpc GetBalance(Address) returns (Amount) {}
+    rpc CreateWallet(Empty) returns (Address) {}
+}
+
+message Transaction {
+    Address fromAddress = 1;
+    Address toAddress = 2;
+    Amount amount = 3;
+}
+
+message Address {
+    string address = 1;
+}
+
+message Amount {
+    int64 amount = 1;
+}
+
+message Empty {
+
+}

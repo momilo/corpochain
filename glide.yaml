@@ -1,0 +1,7 @@
+package: btcgo
+import:
+- package: github.com/gorilla/mux
+- package: github.com/golang/crypto
+- package: github.com/tav/golly
+- package: github.com/sirupsen/logrus
+- package: github.com/boltdb/bolt

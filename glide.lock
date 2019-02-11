@@ -1,0 +1,98 @@
+hash: adfd62db5cd82d74bc3d0ba4a22354d62732f7a8b2216b984686faa6bd33f6d3
+updated: 2019-02-07T15:50:59.000183Z
+imports:
+- name: github.com/boltdb/bolt
+  version: fd01fc79c553a8e99d512a07e8e0c63d4a3ccfc5
+- name: github.com/dchest/siphash
+  version: 34f201214d993633bb24f418ba11736ab8b55aa7
+- name: github.com/flynn/go-shlex
+  version: 3f9db97f856818214da2e1057f8ad84803971cff
+- name: github.com/golang/crypto
+  version: b8fe1690c61389d7d2a8074a507d1d40c5d30448
+- name: github.com/golang/protobuf
+  version: e09c5db296004fbe3f74490e84dcd62c3c5ddb1b
+  subpackages:
+  - proto
+  - ptypes
+  - ptypes/any
+  - ptypes/duration
+  - ptypes/timestamp
+- name: github.com/gorilla/context
+  version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
+- name: github.com/gorilla/mux
+  version: b57cb1605fd11ba2ecfa7f68992b4b9cc791934d
+- name: github.com/konsorten/go-windows-terminal-sequences
+  version: 5c8c8bd35d3832f5d134ae1e1e375b69a4d25242
+- name: github.com/mattn/go-colorable
+  version: efa589957cd060542a26d2dd7832fd6a6c6c3ade
+- name: github.com/mattn/go-isatty
+  version: 3fb116b820352b7f0c281308a4d6250c22d94e27
+- name: github.com/mgutz/ansi
+  version: 9520e82c474b0a04dd04f8a40959027271bab992
+- name: github.com/sirupsen/logrus
+  version: 4ea4861398d99a2d05be29675c5b74caf7bea95e
+- name: github.com/tav/golly
+  version: ad032321f11e5b62ecc9a59a20765225830531c0
+  subpackages:
+  - log
+  - optparse
+  - process
+  - structure
+- name: golang.org/x/crypto
+  version: b49d69b5da943f7ef3c9cf91c8777c1f78a0cc3c
+  subpackages:
+  - ssh/terminal
+- name: golang.org/x/net
+  version: 5f9ae10d9af5b1c89ae6904293b14b064d4ada23
+  subpackages:
+  - context
+  - http/httpguts
+  - http2
+  - http2/hpack
+  - idna
+  - internal/timeseries
+  - lex/httplex
+  - trace
+- name: golang.org/x/sys
+  version: cbbc999da32df943dac6cd71eb3ee39e1d7838b9
+  subpackages:
+  - unix
+  - windows
+- name: golang.org/x/text
+  version: 7922cc490dd5a7dbaa7fd5d6196b49db59ac042f
+  subpackages:
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/norm
+- name: google.golang.org/genproto
+  version: 86e600f69ee4704c6efbf6a2a40a5c10700e76c2
+  subpackages:
+  - googleapis/rpc/status
+- name: google.golang.org/grpc
+  version: fc37cf1364fafea48582b50bf6d4acf9880a980a
+  subpackages:
+  - balancer
+  - balancer/base
+  - balancer/roundrobin
+  - channelz
+  - codes
+  - connectivity
+  - credentials
+  - encoding
+  - encoding/proto
+  - grpclb/grpc_lb_v1/messages
+  - grpclog
+  - internal
+  - keepalive
+  - metadata
+  - naming
+  - peer
+  - resolver
+  - resolver/dns
+  - resolver/passthrough
+  - stats
+  - status
+  - tap
+  - transport
+testImports: []

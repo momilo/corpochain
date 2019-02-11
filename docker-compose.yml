@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+  corpochain-service:
+    build:
+      context: .
+      dockerfile: corpochain/Dockerfile
+    ports:
+     - "8081:8080"
+
+  gateway-service:
+    build:
+      context: .
+      dockerfile: gateway/Dockerfile
+    ports:
+     - "8080:8080"
